@@ -33,7 +33,8 @@ const checkAuthorization = token => {
  */
 export const createApolloServer = (schema, resolvers, models) => {
   return new ApolloServer({
-    typeDefs: schema,
+   playground: true, 
+typeDefs: schema,
     resolvers,
     context: async ({ req, connection }) => {
       if (connection) {
