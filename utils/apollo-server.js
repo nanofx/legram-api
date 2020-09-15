@@ -36,7 +36,7 @@ export const createApolloServer = (schema, resolvers, models) => {
 debug: true,
   tracing: true,
   introspection: true,
-  playground: true
+  playground: true,
 typeDefs: schema,
     resolvers,
     context: async ({ req, connection }) => {
