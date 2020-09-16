@@ -7,7 +7,7 @@ FRONTEND_URL=https://legram.netlify.app/
 # MongoDB URL from mlab.com or Local one
 MONGO_URL=mongodb://demo:demo123@ds121099.mlab.com:21099/create-social-network
 # MONGO_URL=mongodb://nanofx:algirdas23@ds121099.mlab.com:21099/
-# MONGOLAB_URI=mongodb://nanofx:algirdas23@cluster0.whkoo.mongodb.net/create-social-network?retryWrites=true&w=majority
+# MONGO_URL=mongodb+srv://nanofx:algirdas23@cluster0.whkoo.mongodb.net/create-social-network?retryWrites=true&w=majority
 
 
 
